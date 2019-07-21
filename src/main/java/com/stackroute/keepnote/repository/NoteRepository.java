@@ -13,13 +13,12 @@ import java.util.List;
  * of this class will be used by other parts of the applications such
  * as Controllers and Test Cases
  * */
-@Component("noteRepository")
 public class NoteRepository {
 
     /* Declare a variable called "list" to store all the notes. */
     List<Note> list;
 
-    @Autowired
+ 
     public NoteRepository() {
 
         /* Initialize the variable using proper data type */
