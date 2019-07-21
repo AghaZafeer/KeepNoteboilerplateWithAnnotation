@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 /*
  * The class "Note" will be acting as the data model for the Note data in the ArrayList.
  */
-@Component("note")
 public class Note {
 
 	/*
@@ -17,7 +16,7 @@ public class Note {
 	 * setters for the fields. The value of createdAt should not be accepted from
 	 * the user but should be always initialized with the system date
 	 */
-	@Autowired
+
 	private int noteId;
 	private String noteTitle;
 	private String noteContent;
